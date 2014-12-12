@@ -4,98 +4,124 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 .grid {
     margin: 0 auto;
     max-width: 1200px;
     width: 100%;
 }
+
 .row {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
+
 .col-1 {
     width: 8.33%;
 }
+
 .col-2 {
     width: 16.66%;
 }
+
 .col-3 {
     width: 25%;
 }
+
 .col-4 {
     width: 33.33%;
     text-align: center;
 }
+
 .col-5 {
     width: 41.66%;
 }
+
 .col-6 {
     width: 50%;
 }
+
 .col-7 {
     width: 58.33%;
 }
+
 .col-8 {
     width: 66.66%;
 }
+
 .col-9 {
     width: 75%;
 }
+
 .col-10 {
     width: 83.33%;
 }
+
 .col-11 {
     width: 91.66%;
 }
+
 .col-12 {
     width: 100%;
 }
+
 body {
     background-image: url(../images/grey_back.png);
     font-family: 'Roboto Condensed', sans-serif;
 }
+
 hr {
     border: none;
     height: 6px;
     padding: 0;
     background-color: grey;
 }
+
 .middle-image {
     width: 100%;
     height: auto;
 }
+
 .sub {
     font-size: 24px;
     font-weight: 200;
     color: #504A4B;
 }
+
 .name {
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 48px;
     font-weight: 400;
 }
+
 @media only screen and (max-width: 900px) {
     h1 {
         text-align: center;
     }
+
     h3 {
         text-align: center;
     }
+
     .middle-image {
         max-width: 100%;
     }
+
     .my-logo {
         text-align: center;
     }
+
     body {
         display: flex;
         text-align: center;
     }
+
     .bottom-image {
         max-width: 100%;
         height: auto;
     }
+
     .row {
         flex-wrap: wrap;
         flex-direction: column;
@@ -103,19 +129,23 @@ hr {
         margin-left: auto;
         margin-right: auto;
     }
+
     .col-4 {
         width: 100%;
     }
+
     .col-2 {
         width: 100%;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
+
     .col-10 {
         width: 100%;
         display: block;
     }
+
     .grid {
         display: block;
         margin-left: auto;
